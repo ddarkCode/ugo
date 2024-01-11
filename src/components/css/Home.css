@@ -1,0 +1,36 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+  color: #c3a661;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.home-detail {
+  margin-top: 50px;
+}
+
+.home-detail p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  letter-spacing: 1.6;
+  font-size: 18px;
+}
+
+.home-page button {
+  width: 200px;
+  height: 50px;
+  background-color: #c3a661;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

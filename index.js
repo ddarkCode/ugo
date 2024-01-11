@@ -5,6 +5,7 @@ import express from 'express';
 import React from 'react';
 import debug from 'debug';
 import { matchRoutes } from 'react-router-config';
+import cors from 'cors';
 
 import renderer from './helpers/renderer';
 import errorHandler from './middlewares/errorHandler';

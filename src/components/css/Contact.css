@@ -1,0 +1,54 @@
+.contact-page {
+  margin-top: 100px;
+}
+
+.contact-page p {
+  font-size: 18px;
+  margin: 50px 0;
+}
+.contact-page > div {
+  text-align: center;
+}
+
+.contact-page > div > button {
+  width: 150px;
+  height: 60px;
+  background-color: #c3a661;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.contact-page > div > button:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 980px) {
+  .contact-page {
+    height: 100vh;
+    margin-top: 250px;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    line-height: 1.7;
+  }
+  .contact-page p {
+    font-size: 48px;
+  }
+
+  .contact-page > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-page > div > button {
+    width: 100%;
+    height: 150px;
+
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    font-size: 52px;
+  }
+}

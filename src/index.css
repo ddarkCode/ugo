@@ -138,4 +138,10 @@ body {
   width: 100%;
   background-color: #1b1b1b;
   color: #fff;
+  padding: 0 50px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0 10px;
+  }
 }
